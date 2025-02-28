@@ -1,0 +1,16 @@
+### Para compilar el programa y la librería Gson.
+
+			javac -cp .:gson-2.8.9.jar SimpleHttpServer.java Compiler.java
+
+### En windows se usa ; en lugar de :
+
+			javac -cp .;gson-2.8.9.jar SimpleHttpServer.java Compiler.java
+
+
+### Para ejecutar el programa:
+
+			java -cp .:gson-2.8.9.jar SimpleHttpServer
+
+			o en windows:
+
+			java -cp .;gson-2.8.9.jar SimpleHttpServer
